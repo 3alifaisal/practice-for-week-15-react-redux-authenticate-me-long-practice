@@ -1,0 +1,67 @@
+ul li a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+
+  transition: background-color 0.3s;
+}
+
+ul li a:hover {
+  background-color: #63e6be;
+  color: white;
+}
+
+ul li a.active {
+  background-color: #38d9a9;
+  color: white;
+}
+
+/* Profile button styles */
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Profile dropdown menu */
+.profile-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  width: 300px;
+  z-index: 1000;
+}
+
+.profile-dropdown li {
+  margin-bottom: 0.75rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.profile-dropdown li:last-child {
+  margin-bottom: 0;
+}
+
+.profile-dropdown button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.profile-dropdown button:hover {
+  background-color: #fa5252;
+}
