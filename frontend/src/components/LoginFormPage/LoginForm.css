@@ -35,9 +35,12 @@ input {
   margin-top: 0.5rem;
   box-sizing: border-box;
 }
-
-/* Style for the button */
 button {
+  background: none;
+  border: none;
+}
+/* Style for the button */
+form button {
   width: 100%;
   padding: 0.75rem;
   border-radius: 4px;
@@ -49,7 +52,7 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
+form button:hover {
   background-color: #45a049;
 }
 

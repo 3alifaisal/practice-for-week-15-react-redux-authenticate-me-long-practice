@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import * as sessionActions from "../../store/session";
 import "./Navigation.css";
+import "../../stylesheets/navButtons.css";
 function ProfileButton({ user }) {
   const dispatch = useDispatch();
   const [showMenu, setShowMenu] = useState(false);
@@ -34,7 +35,7 @@ function ProfileButton({ user }) {
       <button onClick={openMenu}>
         <i
           style={{ color: "#63E6BE" }}
-          className="fa-regular fa-user fa-lg"
+          className="fa-regular fa-user fa-2xl"
         ></i>
       </button>
       {showMenu && (
